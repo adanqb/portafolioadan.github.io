@@ -6,7 +6,7 @@
 /* Basic */
 
 body {
-	background-color: #fde0cf;
+	background-color: #ebeae9;
 }
 
 html {
@@ -42,6 +42,7 @@ h1 {
 h2 {
 	line-height: 110%;
 	font-size: 2.2rem;
+
 	font-weight: 700;
 }
 
