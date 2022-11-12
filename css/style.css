@@ -46,13 +46,15 @@ h2 {
 	line-height: 110%;
 	font-size: 8rem;
 	font-family: 'Saira Extra Condensed', sans-serif;
-
 	font-weight: 700;
 }
 h3 {
 
-	line-height: 110%;
-	font-size: 1.5rem;
+	line-height: 20%;
+	font-size: 3rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #c2c2c2;
+
 	
 
 }
@@ -351,8 +353,9 @@ h3 {
 	line-height: 100%;
 }
 
+
 .split-image-left {
-	background-image: url("../img/photo-4.jpg");
+	background-image: url("../img/mp1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -360,13 +363,85 @@ h3 {
 }
 
 .split-image-right {
-	background-image: url("../img/photo-3.jpg");
+	background-image: url("../img/mp2.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
 
+/*Case project 1*/
+
+.masthead-4-case {
+	min-height: 500px;
+	top: 0;
+	position: relative;
+	width: 100%;
+	line-height: 100%;
+}
+
+.split-image-right-case{
+	background-image: url("../img/2case1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.split-image-left-case {
+	background-image: url("../img/1case1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.spot-1-case {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/3case1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
+
+/*Case project 2*/
+
+
+.split-image-right-case2{
+	background-image: url("../img/2case2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.split-image-left-case2 {
+	background-image: url("../img/1case2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.spot-1-case2 {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/3case2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
 
 /* Portfolio */
 
@@ -382,7 +457,7 @@ h3 {
 
 .card {
 	border: 0;
-	border-radius: 0;
+	border-radius: 5;
 }
 
 .card-img,
@@ -478,7 +553,104 @@ h3 {
 		padding-top: 1rem;
 	}
 }
+/* Botones */
 
+.button-index{
+	display: block;
+	width: 120px;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+.button-binnacle{
+	display: block;
+	width: 200px;
+	border-radius: 20px;
+	margin-right: 25px;
+	margin-top: 9px;
+	
+}
+.button-binnacle-s{
+	display: block;
+	width: 300px;
+	border-radius: 20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	
+}
+
+.btn1{
+	border-radius: 50px;
+	background-color: #d1d1d1;
+	border: 1px solid #d1d1d1;
+	padding: 3px 12px 3px 15px;
+}
+.btn1:hover{
+	background-color: #e6e5e4;
+	color: #000;
+	border: 1px solid #000;
+}
+.button-case{
+	display: block;
+	font-size: 1rem;
+	background-color: #d1d1d1;
+	border-radius: 20px;
+	margin: auto;
+	border-radius: 30px;
+	
+	
+}
+/* Bitácora */
+
+.portfolio-text-binnacle {
+	padding-top: 9rem;
+	font-size: 1.5rem;
+	line-height: 100%;
+
+}
+
+.card-columns-binnacle .card {
+	margin-bottom: 0rem;
+}
+
+@media (max-width: 991px) {
+	.card-columns-binnacle {
+		column-count: 1;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-columns-binnacle {
+		column-count: 2;
+	}
+}
+
+@media (min-width: 1200px) {
+	.card-columns-binnacle {
+		column-count: 2;
+	}
+}
+
+.stories-2-bt {
+	margin-top: -120px;
+	font-size: 4rem;
+	background-color: #ebeae9;
+	color: #000;
+	padding-top: 4rem;
+	padding-bottom: -20%;
+	line-height: 100%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.stories-2-bts {
+	font-size: 4rem;
+	background-color: #ebeae9;
+	color: #000;
+	padding-top: 4rem;
+	padding-bottom: -20%;
+	line-height: 100%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
 
 /* Story */
 
@@ -553,7 +725,7 @@ h3 {
 .spot-2 {
 	height: 100vh;
 	min-height: 500px;
-	background-image: url("../img/photo-2.jpg");
+	background-image: url("../img/mp3.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -603,7 +775,7 @@ h3 {
 }
 
 .stories-2-title {
-	font-size: 2.5rem;
+	font-size: 15rem;
 	font-family: 'Reenie Beanie', cursive;
 }
 
@@ -611,9 +783,10 @@ h3 {
 	font-size: 1.5em;
 	background-color: #000;
 	color: #fff;
-	padding-top: 15rem;
-	padding-bottom: 10rem;
+	padding-top: 7rem;
+	padding-bottom: 4rem;
 }
+
 
 
 /* Events */
