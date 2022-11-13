@@ -443,6 +443,82 @@ h3 {
 	color: #fff;
 }
 
+/*Costumer journey */
+
+
+.split-image-right-cj{
+	background-image: url("../img/mpd2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-cj {
+	background-image: url("../img/mpd1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+
+
+.split-image-right-cj1{
+	background-image: url("../img/mpd4.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-cj1 {
+	background-image: url("../img/mpd3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+
+
+.split-image-right-cj2 {
+	background-image: url("../img/mpd6.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-cj2 {
+	background-image: url("../img/mpd5.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+
+
+.spot-1-cj {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/mpd7.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
 /* Portfolio */
 
 .portfolio-text {
@@ -580,6 +656,33 @@ h3 {
 	
 }
 
+.button-binnacle-c{
+	display: block;
+	width: 300px;
+	border-radius: 20px;
+	margin-right: -155px;
+	margin-top: 9px;
+	
+}
+
+.button-binnacle-a{
+	display: block;
+	width: 300px;
+	border-radius: 20px;
+	margin-right: -75px;
+	margin-top: 9px;
+	
+}
+
+.button-binnacle-d{
+	display: block;
+	width: 300px;
+	border-radius: 20px;
+	margin-right: -155px;
+	margin-top: 9px;
+	
+}
+
 .btn1{
 	border-radius: 50px;
 	background-color: #d1d1d1;
@@ -591,6 +694,35 @@ h3 {
 	color: #000;
 	border: 1px solid #000;
 }
+
+.btn2{
+	border-radius: 50px;
+	background-color: #d1d1d1;
+	border: 1px solid #d1d1d1;
+	padding: 3px 12px 3px 15px;
+	
+}
+.btn2:hover{
+	background-color: #000;
+	color: #000;
+	border: 1px solid #d1d1d1;
+	color: #d1d1d1;
+}
+
+
+.btn3{
+	border-radius: 50px;
+	background-color: #b7b7b7;
+	border: 1px solid #b7b7b7;
+	padding: 3px 12px 3px 15px;
+	
+}
+.btn3:hover{
+	background-color: #d4d3d2;
+	color: #000;
+	border: 1px solid #000;
+}
+
 .button-case{
 	display: block;
 	font-size: 1rem;
