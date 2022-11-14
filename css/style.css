@@ -42,6 +42,7 @@ h1 {
 	font-size: 3.5rem;
 }
 
+
 h2 {
 	line-height: 110%;
 	font-size: 8rem;
@@ -55,9 +56,15 @@ h3 {
 	font-family: 'Saira Extra Condensed', sans-serif;
 	color: #c2c2c2;
 
-	
-
 }
+
+h5 {
+	font-size: 7rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	line-height: 80%;
+}
+
+
 
 .min-100 {
 	min-height: 100%;
@@ -242,8 +249,8 @@ h3 {
 	height: 70%;
 	top: 50%;
 	transform: translateY(-50%);
-	font-size: 50px;
-	font-family: 'Reenie Beanie', cursive;
+	font-size: 60px;
+	font-family: 'Saira Extra Condensed', sans-serif;
 	font-weight: 400;
 	text-align: center;
 }
@@ -504,6 +511,96 @@ h3 {
 	background-color: #dad9d8;
 }
 
+.split-image-right-w1 {
+	background-image: url("../img/mpd11.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-w1 {
+	background-image: url("../img/mpd12.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-right-w2 {
+	background-image: url("../img/mpd13.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-w2 {
+	background-image: url("../img/mpd14.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-right-w3 {
+	background-image: url("../img/mpd15.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-w3 {
+	background-image: url("../img/mpd16.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-right-w4 {
+	background-image: url("../img/mpd17.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-w4 {
+	background-image: url("../img/mpd18.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-right-w5 {
+	background-image: url("../img/mpd19.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
+.split-image-left-w5 {
+	background-image: url("../img/mpd20.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: #dad9d8;
+}
+
 
 
 .spot-1-cj {
@@ -647,22 +744,29 @@ h3 {
 	margin-top: 9px;
 	
 }
+
 .button-binnacle-s{
 	display: block;
-	width: 300px;
+	width: 240px;
 	border-radius: 20px;
-	margin-right: -20px;
-	margin-top: -20px;
-	
+	margin-right: 37px;
+	margin-top: -21px;
+}
+
+.button-binnacle-serv{
+	display: block;
+	width: 220px;
+	border-radius: 20px;
+	margin-right: 8px;
+	margin-top: 9px;
 }
 
 .button-binnacle-c{
 	display: block;
-	width: 300px;
+	width: 120px;
 	border-radius: 20px;
-	margin-right: -155px;
+	margin-right: 25px;
 	margin-top: 9px;
-	
 }
 
 .button-binnacle-a{
@@ -697,16 +801,16 @@ h3 {
 
 .btn2{
 	border-radius: 50px;
-	background-color: #d1d1d1;
-	border: 1px solid #d1d1d1;
+	background-color: #FFF;
+	border: 1px solid #FFF;
 	padding: 3px 12px 3px 15px;
 	
 }
 .btn2:hover{
 	background-color: #000;
 	color: #000;
-	border: 1px solid #d1d1d1;
-	color: #d1d1d1;
+	border: 1px solid #FFF;
+	color: #FFFF;
 }
 
 
