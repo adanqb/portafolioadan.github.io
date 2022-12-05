@@ -795,9 +795,9 @@ will-change: transform;
 
 .button-binnacle-s{
 	display: block;
-	width: 240px;
+	width: 220px;
 	border-radius: 20px;
-	margin-right: 37px;
+	margin-right: 0px;
 	margin-top: -21px;
 }
 
@@ -1206,15 +1206,15 @@ will-change: transform;
 
 @media (max-width: 1024px) {
 	.marquee h3 {
-	  font-size: 300px;
-	  margin-top: 150px;
+	  font-size: 600px;
+	  margin-top: 70px;
 	}
   }
 
 @media (max-width: 1024px) {
 	.index-text {
 	  
-	  margin-top: 350px;
+	  margin-top: 250px;
 	  
 	
 	}
@@ -1234,7 +1234,7 @@ will-change: transform;
 @media (max-width: 900px) {
   .index-text {
 	
-	margin-top: 150px;
+	margin-top: 137px;
 	
   
   }
