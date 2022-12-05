@@ -878,7 +878,7 @@ will-change: transform;
 .button-case{
 	display: block;
 	font-size: 1rem;
-	background-color: #d1d1d1;
+	background-color: #ebeae9;
 	border-radius: 20px;
 	margin: auto;
 	border-radius: 30px;
@@ -1242,6 +1242,44 @@ will-change: transform;
 
 
 
+.spot-1-manifest {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/manifest.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
+  
+.spot-2-manifest {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/manifest1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
 
-  
-  
+.spot-3-manifest {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/manifest3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}

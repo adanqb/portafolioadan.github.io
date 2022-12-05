@@ -46,81 +46,44 @@
          </div>
       </div>
       <!-- Fin del menú de navegación -->
-        <!-- Spot -->
-        <div class="container-fluid stories">
-         <div class="row justify-content-center">
-            <div class="col-md-8  col-sm-12 wow fadeInDown">
-               <div class="index-text">
-                <p> ¡Hola! <br> Soy un estudiante boliviano de Diseño
-                  <br>
-                  Gráfico, aquí puedes ver mi trabajo ⬇.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
+      <div class="containerintro">
+			<div class="overlay">
+				<div class="images">
+					<div class="img img-1"></div>
+					<div class="img img-2"></div>
+					<div class="img img-3"></div>
+					<div class="img img-4"></div>
+					<div class="img img-5"></div>
+					<div class="img img-6"></div>
+					<div class="img img-7"></div>
+					<div class="img img-8"></div>
+				</div>
+				<div class="navbarintro">
+					<div class="site-title">itsale montana</div>
+					<div class="site-icon">✴</div>
+					<div class="site-type">clothing brand</div>
+				</div>
+			</div>
+		</div>
        <!-- Spot -->
-       
-       <div class="marquee">
-         <h3>
-           <div class="marquee-wrapper">
-             <div class="marquee-title">
-               ✴ ADÁN <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ☾ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ♖ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-             </div>
-             <div class="marquee-title">
-               ♘ ADÁN <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-            <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-            <div class="marquee-title">
-               ✴ ADÁN <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ☺ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ♖ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               </div>
-               <div class="marquee-title">
-               ♘ ADÁN <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-            <div class="marquee-title">
-               ✴ ADÁN <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ↓ PORTAFOLIO</span>
-               ♖ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               </div>
-               <div class="marquee-title">
-               ♘ ADÁN <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-               ✴ ADÁN 
-               <span class="text-stroke-black">QUIROGA BLAS ✴ PORTAFOLIO</span>
-             </div>
-           </div>
-         </h3>
-       </div>
-       
 
-      <!-- Spot -->
-      <div class="spot-1-manifest" id="manifest">
+      <div class="homemanifest">
+         <section class="container">
+            <p class="title">HOLA, SOY ADÁN * DISEÑADOR GRÁFICO               </p>
+            </section>
+         </div>
+
+      <!-- End Spot -->
+       <!-- Spot -->
+       <div class="index-manifest">
          <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
                <div class="button-case">
-                  <a href="manifest.html"><button class="btn1">Ver el manifiesto</button></a>
                </div>
             </div>
          </div>
       </div>
-      <!-- Spot 2 -->
-
+      <!-- End Spot -->
       <!-- Galería -->
       <div class="scrollblock">
          <div class="container-fluid pt-10">
@@ -303,8 +266,74 @@
       <script>
          new WOW().init();
 
+         TweenMax.staggerFrom(
+				".navbarintro > div",
+				0.8,
+				{
+					x: "-80",
+					opacity: 0,
+					ease: Power3.easeOut,
+					delay: 1,
+				},
+				0.08
+			);
 
-         
+			TweenMax.staggerFrom(
+				".images > div",
+				0.8,
+				{
+					x: "-80",
+					opacity: 0,
+					ease: Power3.easeOut,
+					delay: 1,
+				},
+				0.08
+			);
+
+			TweenMax.staggerTo(
+				".navbarintro > div",
+				0.8,
+				{
+					x: "80",
+					opacity: 0,
+					ease: Power3.easeOut,
+					delay: 4,
+				},
+				0.04
+			);
+
+			TweenMax.staggerTo(
+				".images > div",
+				0.4,
+				{
+					scale: "0",
+					opacity: 0,
+					ease: Power3.easeOut,
+					delay: 4,
+				},
+				0.04
+			);
+
+			TweenMax.to(".homemanifest", 1.2, {
+				top: "-100%",
+				ease: Expo.easeOut,
+				delay: 5,
+			});
+
+			var textWrapper = document.querySelector(".header");
+			textWrapper.innerHTML = textWrapper.textContent.replace(
+				/\S/g,
+				"<span class='letter'>$&</span>"
+			);
+
+			anime.timeline().add({
+				targets: ".header .letter",
+				translateY: [100, 0],
+				translateZ: 0,
+				easing: "easeOutExpo",
+				duration: 2000,
+				delay: (el, i) => 4800 + 40 * i,
+			});
       </script>
       <!-- End Javascript -->
    </body>
