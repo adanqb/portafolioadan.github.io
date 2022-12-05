@@ -1226,7 +1226,7 @@ will-change: transform;
   @media (max-width: 900px) {
 	.marquee h3 {
 	  font-size: 300px;
-	  margin-top: -90px;
+	  margin-top: -80px;
 	}
   }
 
@@ -1234,7 +1234,7 @@ will-change: transform;
 @media (max-width: 900px) {
   .index-text {
 	
-	margin-top: 137px;
+	margin-top: 120px;
 	
   
   }
