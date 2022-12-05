@@ -23,11 +23,12 @@ let translateWithEasing = 0;
 
 // EasingFactor: determines how quick the animation/interpolation goes
 let skewEasingFactor = 0.1;
-let translateEasingFactor = 0.05;
+let translateEasingFactor = 0.10;
 
 // Events
 window.addEventListener("mousemove", handleMouseMove);
 window.addEventListener("resize", handleWindowResize);
+window.addEventListener("scroll", scroll)
 
 // Functions
 function handleMouseMove(e) {
