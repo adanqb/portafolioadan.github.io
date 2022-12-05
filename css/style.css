@@ -819,9 +819,9 @@ will-change: transform;
 
 .button-binnacle-a{
 	display: block;
-	width: 300px;
+	width: 220px;
 	border-radius: 20px;
-	margin-right: -75px;
+	margin-right: 8px;
 	margin-top: 9px;
 	
 }
