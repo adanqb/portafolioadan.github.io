@@ -76,8 +76,46 @@ h5 {
 	font-size: 1.5rem;
 }
 
+/* Home */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.homemanifest {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background: #ebeae9;
+}
+
+.container {
+padding: 0%;
+margin: 0%;
+width: auto;
+background: #ebeae9;
+cursor: ew-resize;
+white-space: nowrap;
+padding: 100vh 0;
+}
+
+.title {
+font-size: 20vw;
+position: relative;
+color: #000;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display: inline-block;
+margin: 0;
+padding: 0 15%;
+will-change: transform;
+}
+
+/* Home */
 
 /* Spacing */
+
 
 .no-gutter {
 	margin-right: 0;
@@ -451,7 +489,21 @@ h5 {
 }
 
 /*Costumer journey */
+.index-manifest {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/indexmanifest.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+}
 
+/*Costumer journey */
 
 .split-image-right-cj{
 	background-image: url("../img/mpd2.png");
@@ -730,9 +782,9 @@ h5 {
 
 .button-index{
 	display: block;
-	width: 120px;
+	width: 200px;
 	border-radius: 20px;
-	margin-right: 10px;
+	margin-right: 18px;
 	margin-top: 9px;
 }
 
@@ -1108,3 +1160,5 @@ h5 {
 	text-decoration: none;
 	color: #000;
 }
+
+
